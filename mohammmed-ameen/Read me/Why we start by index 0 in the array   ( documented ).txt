@@ -1,0 +1,5 @@
+--Why we start by index 0 in the array   ( documented )?
+
+Origin. Martin Richards, creator of the BCPL language (a precursor of C),
+ designed arrays initiating at 0 as the natural position to start accessing the array contents in the language,
+ since the value of a pointer p used as an address accesses the position p + 0 in memory.

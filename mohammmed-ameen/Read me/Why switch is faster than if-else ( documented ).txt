@@ -1,0 +1,6 @@
+--Why we start by index 0 in the array   ( documented )?
+
+the switch statement is faster in most cases when compared to if-else ,
+but significantly faster only when the number of conditions is large.
+The primary difference in performance between the two is that the incremental cost of
+an additional condition is larger for if-else than it is for switch .
